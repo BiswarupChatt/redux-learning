@@ -13,7 +13,7 @@ export default function CategoriesContainer() {
 
     useEffect(() => {
         dispatch(startGetCatagories())
-    }, [])
+    }, [dispatch])
 
     return (
         <div>
